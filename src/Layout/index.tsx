@@ -12,16 +12,20 @@ const items: MenuProps["items"] = [
     {
         label: "home",
         path: "/home",
+        key: "/home",
         icon: HomeFilled,
     },
     {
         label: "about",
         path: "/about",
+        key: "/home",
         icon: ShoppingFilled,
     },
     {
         label: "hot news",
         path: "/hotnews",
+        key: "/home",
+
         icon: ShoppingFilled,
     },
 ].map((nav) => ({
