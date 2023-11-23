@@ -24,7 +24,7 @@ const routes: RouteObject[] = [
     {
         path: "/",
         element: <Layout />,
-        // loader: authLoader,
+        loader: authLoader,
         errorElement: <ErrorBoundary />,
         children: [
             {
